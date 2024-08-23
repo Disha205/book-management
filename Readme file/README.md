@@ -7,8 +7,8 @@ Author: Disha Panjabi
 ## Installation
 ```bash
 # Clone the repo
-git clone "https://github.com/repositorypath"
-cd book_management
+git clone "https://github.com/Disha205/book-management"
+cd book-management
 
 # Setup virtual environment
 python3 -m venv env
