@@ -1,0 +1,19 @@
+<h2>Authors List</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Author Name</th>
+            <th>Email</th>
+            <th>Date of Birth</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for author in authors %}
+        <tr>
+            <td>{{ author.name }}</td>
+            <td>{{ author.email }}</td>
+            <td>{{ author.date_of_birth }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
